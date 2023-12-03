@@ -1,9 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T11:43:04.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.5" etag="b3VKBqtqg_gbRy58Kmfx" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T12:00:19.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LH39GLQtjyST2aUc4YQg" version="22.1.5" type="github">
   <diagram name="第 1 页" id="yT7WhqKAPSQbeTmYwGzr">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;xx_factory&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="75" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iE5u83fCRwdXHAhls4Xr-2" target="iE5u83fCRwdXHAhls4Xr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-2" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;xx_interface&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="158" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-3" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;xx_implement1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-4" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;xx_implement2&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-5" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;xx_implement3&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.963;entryY=-0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iE5u83fCRwdXHAhls4Xr-2" target="iE5u83fCRwdXHAhls4Xr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="160" as="sourcePoint" />
+            <mxPoint x="380" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.385;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iE5u83fCRwdXHAhls4Xr-2" target="iE5u83fCRwdXHAhls4Xr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="iE5u83fCRwdXHAhls4Xr-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="568" y="160" as="sourcePoint" />
+            <mxPoint x="598" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iE5u83fCRwdXHAhls4Xr-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;xx_factory use xx_interface to create different implement object according to some args, those args maybe from hard code or flexible properties&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="330" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
